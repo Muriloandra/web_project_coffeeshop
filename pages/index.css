@@ -2,8 +2,6 @@
   min-width: 1100px;
   max-width: 1600px;
   font-family: "Inter", Arial, sans-serif;
-  font-family: "Noto Serif", serif;
-
   font-size: 16px;
   line-height: 20px;
   margin: auto;
@@ -72,7 +70,7 @@
   letter-spacing: -1px;
   margin: 0;
 }
-.header__title_span_accent {
+.header__span-accent {
   font-family: "Noto Serif";
   font-style: italic;
   font-weight: normal;
