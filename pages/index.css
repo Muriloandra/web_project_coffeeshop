@@ -36,7 +36,7 @@
   width: 105px;
 }
 
-.nav__link {
+.nav__links {
   display: flex;
   justify-content: space-between;
   list-style: none;
@@ -45,7 +45,7 @@
   padding-right: 80px;
   padding-top: 30px;
 }
-.nav__link-text {
+.nav__links-text {
   color: #000000;
   text-decoration: none;
   font-family: "Inter";
@@ -145,7 +145,7 @@
   flex-direction: column;
   margin-bottom: 24px;
 }
-.recipes__videos-iframe {
+.recipes__iframe {
   width: 480px;
   height: 283px;
 }
