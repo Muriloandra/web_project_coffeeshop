@@ -179,7 +179,7 @@
   display: flex;
   justify-content: space-between;
 }
-.form {
+.reservation {
   background-color: #d9e7ff;
   background-image: URL(../images/background_reservation.svg);
   display: flex;
