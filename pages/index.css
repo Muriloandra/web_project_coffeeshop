@@ -196,10 +196,10 @@
   padding-bottom: 120px;
 }
 
-.form__reservation_title {
+.reservation__title {
   margin: 0;
   margin-top: 100px;
-  font-family: Inter;
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -212,7 +212,7 @@
 }
 
 .form__label {
-  font-family: Inter;
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -226,7 +226,7 @@
 }
 
 .form__input {
-  font-family: Inter;
+  font-family: "Inter";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -272,10 +272,11 @@
 }
 
 .form__input::placeholder {
-  font-family: Inter;
+  font-family: "Inter";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   padding-top: 15px;
+  padding-left: 20px;
 }
