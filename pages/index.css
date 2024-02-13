@@ -197,13 +197,13 @@
 }
 
 .reservation__title {
+  margin: 0;
+  margin-top: 100px;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
-  line-height: 2;
-  margin: 0;
-  margin-top: 100px;
+  line-height: 52px;
 }
 
 .form__fieldset {
