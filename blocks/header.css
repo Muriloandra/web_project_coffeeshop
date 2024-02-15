@@ -1,0 +1,115 @@
+.header {
+  background-color: #ffffff;
+  background-image: URL(../images/background_header.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 720px;
+  max-height: 800px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+.nav__logo {
+  position: relative;
+  padding-top: 30px;
+  padding-left: 30px;
+  height: 39px;
+  width: 105px;
+}
+
+.nav__links {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: auto;
+  column-gap: 20px;
+  padding-right: 80px;
+  padding-top: 30px;
+}
+.nav__links-text {
+  color: #000000;
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.nav__link-text:hover {
+  color: #2f80ed;
+}
+.header__title {
+  padding-top: 183px;
+  padding-bottom: 28px;
+  padding-left: 80px;
+  max-width: 729px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -1px;
+  margin: 0;
+}
+.header__span-accent {
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
+  display: block;
+}
+
+.header__description {
+  max-width: 683px;
+  padding-left: 80px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+}
+.header__image {
+  position: absolute;
+  top: 124px;
+  right: 5px;
+  width: 646px;
+  height: 568px;
+}
+.header__footer {
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.header__time {
+  padding-left: 80px;
+  padding-bottom: 40px;
+}
+.header__adress {
+  padding-right: 80px;
+  padding-bottom: 40px;
+}
+.header__time,
+.header__adress {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+}
