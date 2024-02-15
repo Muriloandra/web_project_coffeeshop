@@ -1,0 +1,42 @@
+.card {
+  width: 540px;
+  display: flex; /* alinhar elementos na horizontal */
+  flex-direction: column; /* coloca os items verticalmente */
+  padding-bottom: 100px;
+  padding-right: 100px;
+}
+
+.card__title {
+  align-self: flex-start; /* alinahr no inicio da margem */
+  padding-bottom: 32px;
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+}
+.card__list-item {
+  padding-bottom: 16px;
+}
+
+.card__content {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none; /* remove a marcacao */
+}
+
+.card__list-item {
+  display: flex; /* alinhar o texto e o preço na horizontal */
+  justify-content: space-between; /*  espaço entre os itens horizontalmente */
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.card__list-divider {
+  border-bottom: 1px solid #838383;
+  flex-grow: 1;
+}

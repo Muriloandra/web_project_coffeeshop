@@ -13,41 +13,6 @@
   z-index: 1;
 }
 
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0;
-}
-.nav__logo {
-  position: relative;
-  padding-top: 30px;
-  padding-left: 30px;
-  height: 39px;
-  width: 105px;
-}
-
-.nav__links {
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  width: auto;
-  column-gap: 20px;
-  padding-right: 80px;
-  padding-top: 30px;
-}
-.nav__links-text {
-  color: #000000;
-  text-decoration: none;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-}
-.nav__link-text:hover {
-  color: #2f80ed;
-}
 .header__title {
   padding-top: 183px;
   padding-bottom: 28px;
