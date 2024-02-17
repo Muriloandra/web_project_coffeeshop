@@ -11,23 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Noto+Serif:ital@0;1&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Noto+Serif:ital@1&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital,wght@0,1;1&display=swap"
       rel="stylesheet"
     />
     <title>Coffeelandia</title>
@@ -87,7 +71,7 @@
           </div>
 
           <div class="recipes__videos">
-            <div class="recipes__videos-item">
+            <ul class="recipes__videos-item">
               <iframe
                 class="recipes__iframe"
                 width="560"
@@ -102,9 +86,9 @@
                 <p>Prensa Francesa</p>
                 <p>~2 min</p>
               </div>
-            </div>
+            </ul>
 
-            <div class="recipes__videos-item">
+            <ul class="recipes__videos-item">
               <iframe
                 class="recipes__iframe"
                 width="560"
@@ -119,7 +103,7 @@
                 <p>Receita v60</p>
                 <p>~6 min</p>
               </div>
-            </div>
+            </ul>
           </div>
         </section>
         <section class="reservation" id="reservation">
@@ -169,8 +153,13 @@
               </button>
 
               <label class="form__label form__label-align" for="check">
-                <input class="form__checkbox" type="checkbox" id="check" /> Eu
-                concordo com os termos de uso</label
+                <input
+                  class="form__checkbox"
+                  type="checkbox"
+                  id="check"
+                  required
+                />
+                Eu concordo com os termos de uso</label
               >
             </fieldset>
           </form>
@@ -182,7 +171,7 @@
             certificação Fairtrade e usamos xícaras biodegradáveis. Todos os
             chás da nossa coleção custam R$20/xícara.
           </h3>
-          <div class="menu__cards">
+          <ul class="menu__cards">
             <div class="card">
               <h2 class="card__title">Filtro</h2>
               <ul class="card__content">
@@ -273,10 +262,13 @@
                 </li>
               </ul>
             </div>
-          </div>
+          </ul>
         </section>
         <section class="about" id="about">
-          <h2 class="about__title">Sobre o café</h2>
+          <h2 class="about__title">
+            Sobre o<br />
+            café
+          </h2>
           <div class="about__content">
             <p class="about__paragraph">
               Nosso café está localizado na biblioteca Triple Peaks. Possui 6
